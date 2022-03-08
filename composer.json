@@ -1,0 +1,15 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Builder\\": "./Builder"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "./Builder/Tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    }
+}
